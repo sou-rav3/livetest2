@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(height: 10), // Adds space between title and subtitle
+          SizedBox(height: 10),
           Text(
             'Experiment with text styles',
             style: TextStyle(
@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
-          SizedBox(height: 20), // Adds space between subtitle and button
+          SizedBox(height: 20),
           TextButton(
             onPressed: () {
               final snackBar = SnackBar(
@@ -55,7 +55,7 @@ class MyHomePage extends StatelessWidget {
             },
             child: Text('Click Me'),
           ),
-          SizedBox(height: 20), // Adds space between title and subtitle
+          SizedBox(height: 20),
           Text(
             'Welcome to Flutter!',
             style: TextStyle(
